@@ -64,7 +64,7 @@ dateBox.innerText = `${months[month]} ${date}, ${year}`
 
 //to access the geological data of the location
 let getGeoData = (cityName) => {
-    fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=d00dfa901b2e8d978949507fbe2f1ee9`)
+    fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=d00dfa901b2e8d978949507fbe2f1ee9`)
         .then((response) => {
             return response.json()
         })
