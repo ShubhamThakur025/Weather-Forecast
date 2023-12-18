@@ -42,6 +42,10 @@ let weatherLst = {
     'Mist': {
         'bg': './assets/Mist-bg.jpg',
         'gif': './assets/haze.png'
+    },
+    'Fog': {
+        'bg': './assets/Mist-bg.jpg',
+        'gif': './assets/haze.png'
     }
 }
 
